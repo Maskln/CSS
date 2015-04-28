@@ -1,0 +1,46 @@
+﻿body {
+    font-size: 14px;
+    font-family: Arial;
+    background-color: #595959;
+}
+
+h1 {
+    color: #b1b4aa;
+    font-weight: 100;
+}
+
+table {
+    border-spacing: 0 10px;
+    color: white;
+}
+
+.firstCells {
+    width: 150px;
+     vertical-align: top;
+}
+
+.yellowClass {
+    color: #f3e8a9;
+}
+
+.greyClass {
+    color: #b1b4aa;
+}
+
+#brownCell {
+   color: #DA6923;
+   font-weight: bold;
+}
+
+div {
+    width: 12px;
+    height: 12px;
+    background: #4cff00;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
