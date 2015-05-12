@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Windows Calculator</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="window">
+        <div id="calcIco"></div>
+        <p id="title">Calculator</p>
+        <div id="winButt"></div>
+        <div id="calculateWin">
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+            <div id="main">
+                <table id="bigTable">
+                    <tr>
+                        <td colspan="10" id="display">8854455</td>
+                    </tr>
+                    <tr>
+                        <td colspan="10" id="smallT">
+                            <table id="smallTable">
+                                <tr>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" class="left">63</td>
+                                    <td colspan="3" class="left">47</td>
+                                    <td class="right">32</td>
+                                </tr>
+                                <tr>
+                                    <td>0000</td>
+                                    <td>0000</td>
+                                    <td>1000</td>
+                                    <td>0111</td>
+                                    <td>0001</td>
+                                    <td>1011</td>
+                                    <td>1011</td>
+                                    <td>0111</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" class="left">31</td>
+                                    <td colspan="3" class="left">15</td>
+                                    <td class="right">0</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr class="buttons">
+                        <td rowspan="3" class=" radio">
+                            <input type="radio" name="countSys" />Hex<br />
+                            <input type="radio" name="countSys" checked />Dec<br />
+                            <input type="radio" name="countSys" />Oct<br />
+                            <input type="radio" name="countSys" />Bin<br />
+                        </td>
+                        <td></td>
+                        <td class="active">Mod</td>
+                        <td class="alpha unactive">A</td>
+                        <td class="mem unactive">MC</td>
+                        <td class="mem unactive">MR</td>
+                        <td class="mem unactive">MS</td>
+                        <td class="mem unactive">M+</td>
+                        <td class="mem unactive">M-</td>
+                    </tr>
+                    <tr class="buttons">
+                        <td class="active">(</td>
+                        <td class="active">)</td>
+                        <td class="alpha unactive">B</td>
+                        <td class="bold active">&larr;</td>
+                        <td class="active">CE</td>
+                        <td class="active">C</td>
+                        <td class="active">&#177</td>
+                        <td class="unactive">&radic;</td>
+                    </tr>
+                    <tr class="buttons">
+                        <td class="active">RoL</td>
+                        <td class="active">RoR</td>
+                        <td class="alpha unactive">C</td>
+                        <td class="numeric">7</td>
+                        <td class="numeric">8</td>
+                        <td class="numeric">9</td>
+                        <td class="active">/</td>
+                        <td class="unactive">%</td>
+                    </tr>
+                    <tr class="buttons">
+                        <td rowspan="3" class="radio">
+                            <input type="radio" name="count" checked />Qword<br />
+                            <input type="radio" name="count" />Dword<br />
+                            <input type="radio" name="count" />Word<br />
+                            <input type="radio" name="count" />Byte<br />
+                        </td>
+                        <td class="active">Or</td>
+                        <td class="active">Xor</td>
+                        <td class="alpha unactive">D</td>
+                        <td class="numeric">4</td>
+                        <td class="numeric">5</td>
+                        <td class="numeric">6</td>
+                        <td class="alpha active">*</td>
+                        <td class="unactive">1/x</td>
+                    </tr>
+                    <tr class="buttons">
+                        <td class="active">Lsh</td>
+                        <td class="active">Rsh</td>
+                        <td class="alpha unactive">E</td>
+                        <td class="numeric">1</td>
+                        <td class="numeric">2</td>
+                        <td class="numeric">3</td>
+                        <td class="alpha active">-</td>
+                        <td rowspan="2" class="bold active">=</td>
+                    </tr>
+                    <tr class="buttons">
+                        <td class="active">Not</td>
+                        <td class="active">And</td>
+                        <td class="alpha unactive">F</td>
+                        <td colspan="2" class="numeric">0</td>
+                        <td class="unactive">.</td>
+                        <td class="alpha active">+</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

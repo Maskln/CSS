@@ -1,0 +1,72 @@
+﻿body {
+    font-size: 13px;
+    font-family: Arial;
+}
+
+section {
+    margin: auto;
+    border: white;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    width: 430px;
+    height: 520px;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-bottom: 34px;
+    padding-top: 12px;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+article {
+    width: 390px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+a {
+    display: inline;
+}
+
+img {
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+p {
+    padding-bottom: 9px;
+    padding-left: 155px;
+    margin: 12px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.button1, .button2 {
+    background: url("Images/buttonTemp.png");
+    display: inline;
+    position: relative;
+    left: 83px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    padding-right: 12px;
+    padding-left: 20px;
+    margin: 2px;
+    border: 2px inset red;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+

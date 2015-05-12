@@ -1,0 +1,24 @@
+﻿body {
+    margin: 0;
+}
+
+ul {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+li {
+    display: none;
+    text-decoration: none;
+}
+
+body > ul:hover {
+    text-decoration: underline;
+}
+
+ul:hover > li {
+    display: block;
+    padding-left: 10px;
+    color: #8F9294;
+    text-decoration: none;
+}
